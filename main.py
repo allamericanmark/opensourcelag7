@@ -34,7 +34,7 @@ def lag7():
     print("Reconnected.")
 
 while True:
-    if keyboard.is_pressed("F10"):
+    if keyboard.is_pressed(LAG_BUTTON):
         print("F10 pressed, starting lag...")
         lag7()
     time.sleep(0.5)

@@ -35,6 +35,6 @@ def lag7():
 
 while True:
     if keyboard.is_pressed(LAG_BUTTON):
-        print("F10 pressed, starting lag...")
+        print(f"{LAG_BUTTON} pressed, starting lag...")
         lag7()
     time.sleep(0.5)
